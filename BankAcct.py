@@ -7,6 +7,7 @@ class BankAccount:
         self.customer_name = customer_name
         self.current_balance = current_balance
         self.minimum_balance = minimum_balance
+        self.account_num = random.randint(0, 20)
 
     def deposit(self, amount):
         self.current_balance += amount
@@ -20,7 +21,8 @@ class BankAccount:
 
     def print_customer_information(self):
         print("Bank Name: " + BankAccount.bank_title + "\nCustomer Name: " + self.customer_name + "\nCurrent Balance: " +
-              str(self.current_balance) + "\nMinimum Balance: " + str(self.minimum_balance))
+              str(self.current_balance) + "\nMinimum Balance: " + str(self.minimum_balance) + "\nBank account number: "
+              + str(self.account_num))
 
 
 account1 = BankAccount("Max", 500.0, 200.0)
