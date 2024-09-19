@@ -1,3 +1,5 @@
+
+import random
 class BankAccount:
     bank_title = "Citizen's Bank"
 
