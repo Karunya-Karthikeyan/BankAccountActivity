@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/BankAccountProj.iml" filepath="$PROJECT_DIR$/.idea/BankAccountProj.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bank_Account.iml" filepath="$PROJECT_DIR$/.idea/Bank_Account.iml" />
+>>>>>>> 5149593 (Initial Commit of files)
     </modules>
   </component>
 </project>
